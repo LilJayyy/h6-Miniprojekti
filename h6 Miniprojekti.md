@@ -123,6 +123,8 @@ _Käyttäjä lisätty_
 ![6](images/6.png)
 _Idempotenssi saavutettu sillä changed=0_ 
 
+Käyttäjä "Matti" löytyi jo, eli mitään ei muutettu uuden playbookin ajon aikana. Idempotenssi on saavutettu.
+
 
 ## Ajetaan
 

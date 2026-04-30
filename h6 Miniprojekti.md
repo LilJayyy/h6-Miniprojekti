@@ -111,9 +111,11 @@ _Playbook ajettu onnistuneesti changed=1_
 
 * **`cat /etc/passwd | grep matti`** -
 
-* ![6](images/6.png)
+![6](images/6.png)
 
 _Käyttäjä lisätty_
+
+Matti löytyi järjestelmän tiedoista, eli käyttäjän lisäys on tehty onnistuneesti.
 
 ## Tarkistetaa onnistuuko idempotenssi
 

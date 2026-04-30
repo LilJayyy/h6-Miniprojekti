@@ -3,9 +3,6 @@
 Tekijät: Samuli Toropainen, Lilja Sharifi, Andres Kimi Nyrhi
 
 * [a) Userforge TSN](#a-Userforge-tsn)
-* [b) Asennus ](#b-asennus)
-* [c) Käyttöönotto](#c-kayttoonotto)
-* [d) Miten se toimii](#d-miten-se-toimii)
 * [e) Lisenssi](#d-lisenssi)
 * [f) Lähteet ja linkit](#f-lähteet-ja-linkit)
 
@@ -117,7 +114,7 @@ _Käyttäjä lisätty_
 
 Matti löytyi järjestelmän tiedoista, eli käyttäjän lisäys on tehty onnistuneesti.
 
-## Tarkistetaa onnistuuko idempotenssi
+## Tarkistetaan onnistuuko idempotenssi
 
 * **`ansible-playbook playbook.yml --ask-become-pass`** - potkaistaan playbook käyntiin
 
@@ -128,7 +125,7 @@ _Idempotenssi saavutettu sillä changed=0_
 Käyttäjä "Matti" löytyi jo, eli mitään ei muutettu uuden playbookin ajon aikana. Idempotenssi on saavutettu.
 
 
-## Ajetaan
+## 
 
 # b) Asennus
 

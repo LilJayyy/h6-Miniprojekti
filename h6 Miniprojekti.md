@@ -2,12 +2,13 @@
 
 Tekijät: Samuli Toropainen, Lilja Sharifi, Andres Kimi Nyrhi
 
-* [a) Userforge TSN](#a-Userforge-tsn)
-* [e) Lisenssi](#d-lisenssi)
-* [f) Lähteet ja linkit](#f-lähteet-ja-linkit)
+* [a) Userforge TSN asennus](#a-Userforge-tsn-asennus)
+* [b) Käyttöönotto](#b-käyttöönotto)
+* [c) Miten se toimii](cf-miten-se-toimii)
+* [d) Lisenssi](#d-Lisenssi)
 
 
-# a) Userforge TSN
+# a) Userforge TSN asennus
 
 Userforge TSN vaatii toimiakseen Ansiblen asennuksen. Asennusohjeet löytyvät verkosta.
 
@@ -129,7 +130,17 @@ Käyttäjä "Matti" löytyi jo, eli mitään ei muutettu uuden playbookin ajon a
 
 ## 
 
-# b) Asennus
+
+
+
+
+
+
+
+
+
+
+# b) Käyttöönotto
 
 
 
@@ -144,30 +155,15 @@ Käyttäjä "Matti" löytyi jo, eli mitään ei muutettu uuden playbookin ajon a
 
 
 
-# c) Käyttöönotto
+# c) Miten se toimii
 
 
 
+# d) Lisenssi
 
 
 
-
-
-
-
-
-
-
-
-# d) Miten se toimii
-
-
-
-# e) Lisenssi
-
-
-
-# f) Lähteet ja linkit
+# Lähteet ja linkit
 
 Ansible Community Documentation. Dokumentti. _Using variables._ Luettavissa: https://docs.ansible.com/projects/ansible/latest/inventory/implicit_localhost.html/ Luettu: 30.4.2026
 

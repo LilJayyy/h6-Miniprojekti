@@ -9,13 +9,15 @@ Tekijät: Samuli Toropainen, Lilja Sharifi, Andres Kimi Nyrhi
 
 # a) Userforge TSN
 
+Userforge TSN vaatii toimiakseen Ansiblen asennuksen. Asennusohjeet löytyvät verkosta.
+
 ## Ansible Asennuksen tarkistaminen
 
-Aloitettiin Ansiblen version tarkistamisella
+Aloitettiin Ansiblen-version tarkistamisella. Lähtökohtana tilanne, jossa Ansible on jo asennettuna.
 
 * **`ansible --version`** - version tarkistaminen
 
-* Uusin versio oli asennettuna. Ohjelma vaatii Ansiblen asennuksen toimiakseen.
+* Uusin versio oli asennettuna. 
 
 ![1](images/1.png)
 

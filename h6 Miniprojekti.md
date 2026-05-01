@@ -83,8 +83,11 @@ Sisällöksi playbook.yml tekstitiedostoon:
 ````
 
   -`hosts` kertoo ajetaanko paikallisesti, tässä tapauksessa kyllä eli `localhost`
+  
   -`become: yes` Sudo-oikeuksilla
+  
   -`ansible.builtin.user` tällä moduulilla käyttäjä luodaan
+  
   -`state: present` tarkistaa olemassaolon käyttäjän osalta
 
 

@@ -206,7 +206,7 @@ _changed=0 eli mikään ei muutu_
 3. Ajetaan playbook
 4. Uusi käyttäjä on syntynyt
 
-Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä. Tämä on projektimme **Yksi totuus**.
+Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä. 
 
 # b) Käyttöönotto
 

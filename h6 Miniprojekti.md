@@ -162,11 +162,11 @@ Sisällöksi alla oleva:
       loop: "{{ users }}"
 ````
 
-* **`ctrl S + ctrl Q`** - tallennetaan muutokset
+Tallennetaan: * **`ctrl S + ctrl Q`**
 
 * **`ansible-playbook playbook.yml --ask-become-pass`** - ajetaan playbook ja katsoaan onnistuiko muutos
 
-  -`vars_files` laittaa nyt playbookin lukemaan users.yml:n.
+  -`vars_files` laittaa nyt playbookin lukemaan users.yml:n
 
   -`name: "{{ item.name }}"` tarkistaa nyt listasta ja lisää nimet
 
@@ -182,7 +182,7 @@ Mikäli tämä vaihe on suoritettu onnistuneesti on `liisa` ja `maija` -käyttä
 
 _Myös testikäyttäjät maija ja liisa luotu onnistuneesti_ 
 
-* **`cat /etc/passwd | grep`** - tarkistetaan lopuksi käyttäjät
+* **`cat /etc/passwd | grep -E "matti|liisa|maija"`** - tarkistetaan lopuksi käyttäjät
 
 ![11](images/11.png)
 
@@ -192,6 +192,9 @@ Tarkistetaan vielä idempotenssi:
 
 * **`ansible-playbook playbook.yml --ask-become-pass`** - ajetaan playbook
 
+![12](images/12.png)
+
+_changed=0 eli mikään ei muutu_ 
 
 
 # b) Käyttöönotto

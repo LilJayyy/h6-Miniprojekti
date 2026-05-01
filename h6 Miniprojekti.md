@@ -122,21 +122,65 @@ Matti löytyi järjestelmän tiedoista, eli käyttäjän lisäys on tehty onnist
 * **`ansible-playbook playbook.yml --ask-become-pass`** - potkaistaan playbook käyntiin
 
   
-![6](images/6.png)
+![8](images/8.png)
+
 _Idempotenssi saavutettu sillä changed=0_ 
 
 Käyttäjä "Matti" löytyi jo, eli mitään ei muutettu uuden playbookin ajon aikana. Idempotenssi on saavutettu.
 
 
-## 
+## Laitetaan Playbook luomaan Users.yml tiedoston perusteella käyttäjät
+
+`Playbook.yml` pitää pystyä lukemaan `Users.yml` jotta se voi luoda käyttäjät.
+
+* **`micro playbook.yml`** - lähdetään muokkaamaan playbookin sisältö
+
+Sisällöksi alla oleva:
+````
+---
+- name: Userforge TSN manage users
+  hosts: localhost
+  connection: local
+  become: yes
 
 
+  vars_files:
+    - users.yml
 
+    
+  tasks:
+    - name: Fetch from users list
+      ansible.builtin.user:
+        name: "{{ item.name }}"
+        state: present
+      loop: "{{ users }}"
+````
 
+* **`ctrl S + ctrl Q`** - tallennetaan muutokset
 
+* **`ansible-playbook playbook.yml --ask-become-pass`** - ajetaan playbook ja katsoaan onnistuiko muutos
 
+* `vars_files` laittaa nyt playbookin lukemaan users.yml:n.
 
+* `name: "{{ item.name }}"` tarkistaa nyt listasta ja lisää nimet
 
+* `loop: "{{ users }}"` - lisää useammat käyttäjät
+
+![9](images/9.png)
+
+_Playbookin sisältö_
+
+Mikäli tämä vaihe on suoritettu onnistuneesti on `liisa` ja `maija` -käyttäjät on nyt myös luotu `users.yml` -tiedostosta. 
+
+![10](images/10.png)
+
+_Myös testikäyttäjät maija ja liisa luotu eli  on luotu onnistuneesti_ 
+
+* **`cat /etc/passwd | grep`** - tarkistetaan lopuksi käyttäjät
+
+![11](images/11.png)
+
+_Kaikki käyttäjät on nyt lisätty onnistuneesti_ 
 
 
 

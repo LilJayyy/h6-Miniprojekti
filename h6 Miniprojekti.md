@@ -199,14 +199,14 @@ _Kaikki käyttäjät on nyt lisätty onnistuneesti_
 
 _changed=0 eli mikään ei muutu_ 
 
-### Yheenveto: Mitä on nyt saavutettu
+### Yhteenveto: Mitä on nyt saavutettu
 
-1. Käyttäjä lisätään `users.yml` käyttäjä listaan
-2. Listaan lisätään uusi käyttäjä
+1. Avataan `users.yml` käyttäjä lista
+2. Lisätään uusi käyttäjä
 3. Ajetaan playbook
 4. Uusi käyttäjä on syntynyt
 
-Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä. **Yksi totuus**.
+Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä. Tämä on projektimme **Yksi totuus**.
 
 # b) Käyttöönotto
 

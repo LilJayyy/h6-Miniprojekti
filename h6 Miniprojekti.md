@@ -162,7 +162,7 @@ Sisällöksi alla oleva:
       loop: "{{ users }}"
 ````
 
-Tallennetaan: * **`ctrl S + ctrl Q`**
+Tallennetaan: * **`ctrl S` ja perään `ctrl Q`**
 
 * **`ansible-playbook playbook.yml --ask-become-pass`** - ajetaan playbook ja katsoaan onnistuiko muutos
 

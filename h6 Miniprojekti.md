@@ -15,8 +15,8 @@ Userforge TSN vaatii toimiakseen Ansiblen asennuksen.
 Ansiblen saa asennettua linuxissa alla olevalla komennolla:
 
 ````bash
-sudo apt-get update   # pakettien päivitys
-sudo apt-get install -y ansible   # varsinainen ansible-asennus
+sudo apt-get update
+sudo apt-get install -y ansible
 ````
 
 ## Ansible Asennuksen tarkistaminen

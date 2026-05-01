@@ -217,6 +217,7 @@ _changed=0 eli mikään ei muutu_
 
 # c) Miten se toimii
 
+TEHDÄÄN TÄMÄ OSIO YHDESSÄ??????
 
 
 # d) Lisenssi

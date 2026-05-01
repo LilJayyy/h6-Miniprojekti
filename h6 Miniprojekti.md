@@ -110,7 +110,7 @@ _Sisältö oikein playbook.yml tiedoston sisällä_
 _Playbook ajettu onnistuneesti changed=1_
 
 
-## Tarkistetaan vielä onnistuiko käyttäjän Matti lisäys
+## Tarkistetaan onnistuiko käyttäjän Matti lisäys
 
 * **`cat /etc/passwd | grep matti`** -
 

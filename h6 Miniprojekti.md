@@ -199,14 +199,14 @@ _Kaikki käyttäjät on nyt lisätty onnistuneesti_
 
 _changed=0 eli mikään ei muutu_ 
 
-Mitä on nyt tehty tähän asti:
+### Yheenveto: Mitä on nyt saavutettu
 
 1. Käyttäjä lisätään `users.yml` käyttäjä listaan
 2. Listaan lisätään uusi käyttäjä
 3. Ajetaan playbook
 4. Uusi käyttäjä on syntynyt
 
-Kun yhtä tiedostoa `users.yml` -muokataan ja ajetaan komento (`ansible-playbook playbook.yml --ask-become-pass`) syntyy uusi käyttäjä.
+Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä. **Yksi totuus**.
 
 # b) Käyttöönotto
 

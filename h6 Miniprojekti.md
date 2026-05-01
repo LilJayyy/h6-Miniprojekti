@@ -160,11 +160,11 @@ Sisällöksi alla oleva:
 
 * **`ansible-playbook playbook.yml --ask-become-pass`** - ajetaan playbook ja katsoaan onnistuiko muutos
 
-* `vars_files` laittaa nyt playbookin lukemaan users.yml:n.
+  -`vars_files` laittaa nyt playbookin lukemaan users.yml:n.
 
-* `name: "{{ item.name }}"` tarkistaa nyt listasta ja lisää nimet
+  -`name: "{{ item.name }}"` tarkistaa nyt listasta ja lisää nimet
 
-* `loop: "{{ users }}"` - lisää useammat käyttäjät
+  -`loop: "{{ users }}"` - lisää useammat käyttäjät
 
 ![9](images/9.png)
 

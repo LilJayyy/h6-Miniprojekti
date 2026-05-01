@@ -247,6 +247,10 @@ Ansible Community Documentation. Dokumentti. _Playbook variables._ Luettavissa: 
 
 Ansible Community Documentation. Dokumentti. _Connection details._ Luettavissa: https://docs.ansible.com/projects/ansible/latest/inventory_guide/connection_details.html/ Luettu: 30.4.2026
 
+Karvinen, T. 2020. Verkkosivu. Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/ Luettu: 30.4.2026.
+
+Karvinen, T. 2026. Verkkosivu. Hello Ansible Luettavissa: https://terokarvinen.com/hello-ansible/ Luettu: 30.04.2026.
+
 Michalowski, M. Spacelift. Verkkosivu. _Ansible create user._ Luettavissa: https://spacelift.io/blog/ansible-create-user/ Luettu: 30.4.2026
 
 Dhandala, N. 2026. _How to Create Users with the Ansible user Module._ Luettavissa: https://oneuptime.com/blog/post/2026-02-21-how-to-create-users-with-the-ansible-user-module/view/ Luettu: 30.4.2026

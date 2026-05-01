@@ -131,6 +131,9 @@ Käyttäjä "Matti" löytyi jo, eli mitään ei muutettu uuden playbookin ajon a
 
 ## Laitetaan Playbook luomaan Users.yml tiedoston perusteella käyttäjät
 
+**Välimuistutuksena** on tärkeää ymmärtää tehdä muutokset projektikansion sisällä eli 
+`cd ~/h6-Miniprojekti` sisältä - ei kotihakemiston.
+
 `Playbook.yml` pitää pystyä lukemaan `Users.yml` jotta se voi luoda käyttäjät.
 
 * **`micro playbook.yml`** - lähdetään muokkaamaan playbookin sisältö
@@ -174,7 +177,7 @@ Mikäli tämä vaihe on suoritettu onnistuneesti on `liisa` ja `maija` -käyttä
 
 ![10](images/10.png)
 
-_Myös testikäyttäjät maija ja liisa luotu eli  on luotu onnistuneesti_ 
+_Myös testikäyttäjät maija ja liisa luotu onnistuneesti_ 
 
 * **`cat /etc/passwd | grep`** - tarkistetaan lopuksi käyttäjät
 
@@ -182,7 +185,7 @@ _Myös testikäyttäjät maija ja liisa luotu eli  on luotu onnistuneesti_
 
 _Kaikki käyttäjät on nyt lisätty onnistuneesti_ 
 
-
+* **`
 
 # b) Käyttöönotto
 

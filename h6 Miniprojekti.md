@@ -140,7 +140,7 @@ Käyttäjä "Matti" löytyi jo, eli mitään ei muutettu uuden playbookin ajon a
   
 * **`pwd`** - tarkistaa missä olet
 
-**Tämän tehtävänosion tarkoituksena käyttäjälistan käyttöönotto eli tehdä **silmukka** `Playbook.yml`:ään niin että se pystyy lukemaan `Users.yml` käyttäjien luomista varten.**
+**Tämän tehtävänosion tarkoituksena on ottaa käyttäjälista käyttöön eli tehdä **silmukka** `Playbook.yml`:ään niin että se pystyy lukemaan `Users.yml` käyttäjien luomista varten.**
 
 * **`micro playbook.yml`** - lähdetään muokkaamaan playbookin sisältö
 

@@ -217,7 +217,15 @@ _changed=0 eli mikään ei muutu_
 
 # c) Miten se toimii
 
-TEHDÄÄN TÄMÄ OSIO YHDESSÄ??????
+--LILJAN OSUUS--
+Userforge TSN ohjelma hyödyntää toiminnassaan Ansiblen `ansible.builtin.user` moduulia. 
+
+Moduulin tehtävänä on hakea käyttäjälista `users.yml` tiedostosta ja luoda sen perusteella käyttäjät. Tämä on projektimme **yksi totuus**.
+
+Muutoksia hallitaan muokkaamalla `users.yml` -tiedostoa ja otetaan käyttöön kun playbook ajetaan. 
+
+**Idempotenssi** saavutetaan niin, ettei muutoksia tehdä, jos käyttäjiin ei ole tehty muutoksia `users.yml` tiedostoon. 
+--LILJAN OSUUS--
 
 
 # d) Lisenssi

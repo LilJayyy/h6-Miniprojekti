@@ -19,6 +19,8 @@ sudo apt-get update
 sudo apt-get install -y ansible
 ````
 
+Komennon syöttämisen jälkeen käyttäjän tulee syöttää sudo-salasana + enter.
+
 ## Ansible Asennuksen tarkistaminen
 
 Aloitettiin Ansiblen-version tarkistamisella. Lähtökohtana tilanne, jossa Ansible on jo asennettuna.

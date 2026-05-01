@@ -221,6 +221,9 @@ _changed=0 eli mikään ei muutu_
 
 # d) Lisenssi
 
+GNU General Public License v3.0 (GPLv3). 
+
+Lisätietoja voit tarkistaa `LICENSE`-osiosta.
 
 
 # Lähteet ja linkit

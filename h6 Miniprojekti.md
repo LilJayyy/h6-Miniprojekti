@@ -137,7 +137,7 @@ Käyttäjä "Matti" löytyi jo, eli mitään ei muutettu uuden playbookin ajon a
   
 * **`pwd`** - tarkistaa missä olet
 
-`Playbook.yml` pitää pystyä lukemaan `Users.yml` jotta se voi luoda käyttäjät.
+Tämän tehtävänosion tarkoituksena käyttäjälistan käyttöönotto eli tehdä **silmukka** `Playbook.yml`:ään niin että se pystyy lukemaan `Users.yml` käyttäjien luomista varten.
 
 * **`micro playbook.yml`** - lähdetään muokkaamaan playbookin sisältö
 
@@ -188,7 +188,11 @@ _Myös testikäyttäjät maija ja liisa luotu onnistuneesti_
 
 _Kaikki käyttäjät on nyt lisätty onnistuneesti_ 
 
-* **`
+Tarkistetaan vielä idempotenssi:
+
+* **`ansible-playbook playbook.yml --ask-become-pass`** - ajetaan playbook
+
+
 
 # b) Käyttöönotto
 

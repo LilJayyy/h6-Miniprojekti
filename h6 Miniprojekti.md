@@ -82,10 +82,10 @@ Sisällöksi playbook.yml tekstitiedostoon:
         state: present
 ````
 
-hosts => kertoo ajetaanko paikallisesti, tässä tapauksessa kyllä eli `localhost`
-become: yes => Sudo-oikeuksilla
-ansible.builtin.user => tällä moduulilla käyttäjä luodaan
-state: present => tarkistaa olemassaolon käyttäjän osalta
+  -`hosts` kertoo ajetaanko paikallisesti, tässä tapauksessa kyllä eli `localhost`
+  -`become: yes` Sudo-oikeuksilla
+  -`ansible.builtin.user` tällä moduulilla käyttäjä luodaan
+  -`state: present` tarkistaa olemassaolon käyttäjän osalta
 
 
 ![4](images/4.png)

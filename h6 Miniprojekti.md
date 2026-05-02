@@ -301,6 +301,11 @@ Muutoksia hallitaan muokkaamalla `users.yml` -tiedostoa ja otetaan käyttöön k
 **--LILJAN OSUUS--**
 
 
+
+**--KIMIN OSUUS--**
+
+**--KIMIN OSUUS--** 
+
 # c) Lisenssi
 
 GNU General Public License v3.0 (GPLv3). 

@@ -309,7 +309,7 @@ Muutoksia hallitaan muokkaamalla `users.yml` -tiedostoa ja otetaan käyttöön k
 
 GNU General Public License v3.0 (GPLv3). 
 
-Lisätietoja voit tarkistaa `LICENSE`-osiosta.
+Lisätietoja voit tarkistaa [LICENSE](https://github.com/LilJayyy/h6-Miniprojekti/blob/main/LICENSE)-osiosta.
 
 
 # Lähteet ja linkit

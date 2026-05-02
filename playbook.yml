@@ -10,8 +10,10 @@
 
     
   tasks:
-    - name: Fetch from users list
+    - name: Manage users
       ansible.builtin.user:
         name: "{{ item.name }}"
-        state: present
+        state: "{{ item.state }}"
+        generate_ssh_key: yes
+        remove: yes
       loop: "{{ users }}"

@@ -1,4 +1,9 @@
 users:
   - name: matti
+    state: present
   - name: liisa
+    state: present
   - name: maija
+    state: present
+  - name: eero
+    state: present

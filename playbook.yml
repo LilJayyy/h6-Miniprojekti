@@ -1,0 +1,17 @@
+---
+- name: Userforge TSN manage users
+  hosts: localhost
+  connection: local
+  become: yes
+
+
+  vars_files:
+    - users.yml
+
+    
+  tasks:
+    - name: Fetch from users list
+      ansible.builtin.user:
+        name: "{{ item.name }}"
+        state: present
+      loop: "{{ users }}"

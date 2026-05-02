@@ -286,7 +286,6 @@ Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä.
 
 # b) Miten se toimii
 
-KAIKI MUOKKAA TÄTÄ OSIOTA 
 
 **--LILJAN OSUUS--**
 

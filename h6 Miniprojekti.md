@@ -287,7 +287,7 @@ Muutoksia hallitaan muokkaamalla `users.yml` -tiedostoa ja otetaan käyttöön k
 **--LILJAN OSUUS--**
 
 
-# d) Lisenssi
+# c) Lisenssi
 
 GNU General Public License v3.0 (GPLv3). 
 

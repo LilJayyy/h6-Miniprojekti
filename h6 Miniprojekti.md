@@ -258,6 +258,12 @@ ansible-playbook playbook.yml --ask-become-pass
 
 _changed=0 eli mikään ei muutu_ 
 
+
+--------------
+KIMIN OSIO TÄHÄN 
+
+----------------
+
 ### Yhteenveto: Mitä on nyt saavutettu
 
 1. Avataan `users.yml` käyttäjä lista

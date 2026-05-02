@@ -3,9 +3,8 @@
 Tekijät: Samuli Toropainen, Lilja Sharifi, Andres Kimi Nyrhi
 
 * [a) Userforge TSN asennus](#a-Userforge-tsn-asennus)
-* [b) Käyttöönotto](#b-käyttöönotto)
-* [c) Miten se toimii](cf-miten-se-toimii)
-* [d) Lisenssi](#d-Lisenssi)
+* [b) Miten se toimii](b-miten-se-toimii)
+* [c) Lisenssi](#c-Lisenssi)
 
 
 # a) Userforge TSN asennus
@@ -260,7 +259,6 @@ _changed=0 eli mikään ei muutu_
 
 Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä. 
 
-# b) Käyttöönotto
 
 
 
@@ -272,10 +270,7 @@ Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä.
 
 
 
-
-
-
-# c) Miten se toimii
+# b) Miten se toimii
 
 KAIKI MUOKKAA TÄTÄ OSIOTA 
 

@@ -25,23 +25,33 @@ Komennon syöttämisen jälkeen käyttäjän tulee syöttää sudo-salasana + en
 
 Aloitettiin Ansiblen-version tarkistamisella. Lähtökohtana tilanne, jossa Ansible on jo asennettuna.
 
-* **`ansible --version`** - version tarkistaminen
+**Version tarkistaminen**
+````bash
+ansible --version
+````
 
 * Uusin versio oli asennettuna. 
 
 ![1](images/1.png)
 
-_Uusin versio asennettu_
-
 ## Git clone 
 
 Varaston (repon) kloonaaminen etenee seuraavasti:
 
-* **`git clone https://github.com/LilJayyy/h6-Miniprojekti.git`** - kloonataan repo
+Kloonataan repo
+````bash
+git clone https://github.com/LilJayyy/h6-Miniprojekti.git
+````
 
-* **`cd h6-Miniprojekti`** - repon sisälle
+Repon sisälle
+````bash
+cd h6-Miniprojekti
+````
 
-* **`ls`** - tarkistetaan mitä sisällä tiedostoissa
+Tarkistetaan mitä sisällä tiedostoissa
+````bash
+ls
+````
 
 ![2](images/2.png)
 
@@ -51,7 +61,10 @@ _Repon sisältö_
 
 Lähdetään etenemään avaamalla tekstieditori micro jolla pääsee luomaan sisällön tiedostolle
 
-* **`micro users.yml`** - avataan editori
+Avataan editori
+````bash
+micro users.yml
+````
 
 Sisällöksi alla oleva eli käyttäjien nimet:
 
@@ -64,20 +77,26 @@ users:
 Tallennetaan tiedot `ctrl + S` ja poistutaan `ctrl + Q`
 
 ### Tarkistetaan onnistuiko sisällön luonti
+Katsotaan tiedoston sisälle
 
-* **`cat users.yml`** - katsotaan tiedoston sisälle
+````bash
+cat users.yml
+````
 
 ![3](images/2.png)
 
 _Users.yml sisältö_
 
 ## Playbook.yml tiedoston sisällön luominen
+Playbookille sisältö yhdellä käyttäjällä
 
-* **`micro playbook.yml`** - playbookille sisältö yhdellä käyttäjällä
+````bash
+micro playbook.yml
+````
 
 Sisällöksi playbook.yml tekstitiedostoon:
 
-````
+````bash
 ---
 - name: Userforge TSN manage users
   hosts: localhost

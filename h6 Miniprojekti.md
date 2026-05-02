@@ -60,6 +60,14 @@ _Repon sisältö_
 
 Lähdetään etenemään avaamalla tekstieditori micro jolla pääsee luomaan sisällön tiedostolle
 
+### Micro editorin asennus jos sitä ei löydy entuudestaan
+
+Halutessasi voit käyttää myös nano editoria.
+
+````
+sudo apt install -y micro
+```` 
+
 Avataan editori
 ````bash
 micro users.yml

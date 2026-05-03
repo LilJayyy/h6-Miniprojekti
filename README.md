@@ -4,6 +4,7 @@ Tämä projekti on toteutettu osana Haaga-helia ammattikorkeakoulun Palvelinten 
 ## Vaatimukset
 - Linux-järjestelmä
 - Ansible
+- Git
 - Sudo-oikeudet kohdekoneeseen
 
 ## Käyttö lyhyesti

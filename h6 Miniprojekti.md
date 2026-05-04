@@ -6,6 +6,7 @@ Tekijät: Samuli Toropainen, Lilja Sharifi, Andres Kimi Nyrhi
 * [b) Miten se toimii](b-miten-se-toimii)
 * [c) Lisenssi](#c-Lisenssi)
 
+**Demovideo: https://youtu.be/_au8Zb9igjg**
 
 # a) Userforge TSN asennus
 

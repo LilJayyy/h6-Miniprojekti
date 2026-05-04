@@ -329,9 +329,6 @@ Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä.
 
 # b) Miten se toimii
 
-
-**--LILJAN OSUUS--**
-
 Userforge TSN ohjelma hyödyntää toiminnassaan Ansiblen `ansible.builtin.user` moduulia. 
 
 Moduulin tehtävänä on hakea käyttäjälista `users.yml` tiedostosta ja luoda sen perusteella käyttäjät. Tämä on projektimme **yksi totuus**.
@@ -339,12 +336,6 @@ Moduulin tehtävänä on hakea käyttäjälista `users.yml` tiedostosta ja luoda
 Muutoksia hallitaan muokkaamalla `users.yml` -tiedostoa ja otetaan käyttöön kun playbook ajetaan. 
 
 **Idempotenssi** saavutetaan niin, ettei muutoksia tehdä, jos käyttäjiin ei ole tehty muutoksia `users.yml` tiedostoon. 
-
-**--LILJAN OSUUS--**
-
-
-
-**--KIMIN OSUUS--**
 
 
 Playbook generoi jokaiselle uudelle käyttäjälle omat SSH-avaimet valmiiksi, joten niitä ei tarvitse säätää käsin.
@@ -354,8 +345,6 @@ Koska tiedot haetaan users.yml:lästä, uusien käyttäjien hallinta on todella 
 Ansible-playbook hoitaa käyttäjien lisäämisen ja poistamisen automaattisesti määritellyn tilan mukaan.
 
  
-**--KIMIN OSUUS--** 
-
 # c) Lisenssi
 
 GNU General Public License v3.0 (GPLv3). 

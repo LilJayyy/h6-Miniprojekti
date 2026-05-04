@@ -260,7 +260,42 @@ _changed=0 eli mikään ei muutu_
 
 
 --------------
-KIMIN OSIO TÄHÄN 
+# Luodaan automaattiset SSH-avaimet käyttäjille 
+
+
+<img width="771" height="489" alt="image" src="https://github.com/user-attachments/assets/c9566443-c8a0-41cb-a1f8-021862e09372" />
+
+Playbook.yml tiedostoon lisättiin seuraavat tehtävät:
+
+`state: "{{ item.state }}":` Määrittää, luodaanko käyttäjä vai poistetaanko se.
+
+`generate_ssh_key: yes` luo käyttäjälle SSH-avaimen. 
+
+`remove: yes:` Jos käyttäjä poistetaan, myös hänen kaikki sisällä olevat tiedot. 
+
+
+## Lisätään käyttäjille absent tai present tila users.yml tiedostoon
+
+<img width="832" height="380" alt="image" src="https://github.com/user-attachments/assets/5ec6c09e-6fca-4e59-932d-6a43236958c1" />
+
+Asetusten perusteella ansiblen kuuluisi luoda kotihakemisto ja SSH-avain ainoastaan niille käyttäjille, joiden tilaksi on määritetty present.
+
+
+## Toimivuuden varmistaminen
+
+<img width="1256" height="426" alt="image" src="https://github.com/user-attachments/assets/5612a05a-c073-48b9-887f-045026720142" />
+
+Ajetaan seuraavaksi playbookkia ja testausta varten käytettään käyttäjää Matti sekä eero. 
+
+Komento `id matti` näyttää kaikki kyseiseen käyttäjään liittyvät tunnistetiedot. Eerolle ei luotu tunnistetietoja, koska hänen tilakseen oli määritetty absent. 
+
+
+<img width="865" height="427" alt="image" src="https://github.com/user-attachments/assets/d103b9e1-7562-4902-8a5b-6685bfe08fdf" />
+
+Komenolla  `sudo ls -l /home/matti/.ssh/` nähdään, että Matille on luotu SSH-avain, mikä vahvistaa testauksen onnistuneen. 
+
+
+
 
 ----------------
 
@@ -270,6 +305,12 @@ KIMIN OSIO TÄHÄN
 2. Lisätään uusi käyttäjä
 3. Ajetaan playbook
 4. Uusi käyttäjä on syntynyt
+5. Avataan `playbook.yml`
+6. Lisätään SSH-avainten automatisaatio
+7. Lisätään käyttäjien tilan ominaisuudet
+8. Avataan `users.yml`
+9. Lisätään käyttäjille tilat
+10. Ajetaan playbook
 
 Yksi tiedosto muokataan, yksi komento ajetaan = syntyy uusi käyttäjä. 
 
@@ -303,6 +344,14 @@ Muutoksia hallitaan muokkaamalla `users.yml` -tiedostoa ja otetaan käyttöön k
 
 **--KIMIN OSUUS--**
 
+
+Playbook generoi jokaiselle uudelle käyttäjälle omat SSH-avaimet valmiiksi, joten niitä ei tarvitse säätää käsin.
+
+Koska tiedot haetaan users.yml:lästä, uusien käyttäjien hallinta on todella helppoa ja nopeaa.
+
+Ansible-playbook hoitaa käyttäjien lisäämisen ja poistamisen automaattisesti määritellyn tilan mukaan.
+
+ 
 **--KIMIN OSUUS--** 
 
 # c) Lisenssi
@@ -321,6 +370,10 @@ Lisätietoja voit tarkistaa [LICENSE](https://github.com/LilJayyy/h6-Miniprojekt
 **Ansible Community Documentation.** Dokumentti. _Connection details._ Luettavissa: https://docs.ansible.com/projects/ansible/latest/inventory_guide/connection_details.html/ Luettu: 30.4.2026
 
 **Dhandala, N. 2026.** _How to Create Users with the Ansible user Module._ Luettavissa: https://oneuptime.com/blog/post/2026-02-21-how-to-create-users-with-the-ansible-user-module/view/ Luettu: 30.4.2026
+
+**Linder, D. 2026 Automating SSH keys with Ansible Luettavissa https://www.linder.org/blog/2020/01/16/automating-ssh-keys-with-ansible/ Luettu: 02.05.2026
+
+**Purbey, R. 2023 Create New User and Setup SSH Key using Ansible Playbook Luettavissa: https://medium.com/@riteshpurbey/create-new-user-and-setup-ssh-key-using-ansible-playbook-10ea5823cd2d Luettu: 02.05.2026
 
 **Karvinen, T. 2020.** Verkkosivu. Command Line Basics Revisited. Luettavissa: https://terokarvinen.com/2020/command-line-basics-revisited/ Luettu: 30.4.2026.
 

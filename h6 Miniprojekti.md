@@ -80,6 +80,7 @@ users:
   - name: matti
   - name: liisa
   - name: maija
+  - name: eero
 ````
 Tallennetaan tiedot `ctrl + S` ja poistutaan `ctrl + Q`
 
